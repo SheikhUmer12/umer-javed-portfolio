@@ -1,0 +1,43 @@
+input {
+  max-width: 300px;
+  height: 40px;
+  background: #011221;
+  border: 1px solid #1e2d3d;
+  border-radius: 8px;
+  padding: 0px 15px;
+  color: white;
+  font-size: 16px;
+  transition: all 0.3s ease-in;
+}
+textarea {
+  min-width: 300px;
+  max-width: 300px;
+  height: 40px;
+  background: #011221;
+  border: 1px solid #1e2d3d;
+  border-radius: 8px;
+  padding: 10px 15px;
+  color: white;
+  font-size: 16px;
+  resize: none;
+  height: 200px;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #465e77;
+  opacity: 1; /* Firefox */
+  font-size: 16px;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #465e77;
+  font-size: 16px;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #465e77;
+  font-size: 16px;
+}
